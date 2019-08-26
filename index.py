@@ -4,10 +4,12 @@
 # Add, subtract, multiple, and divide the numbers.
 # userInput1 = input("Enter a num ")
 # userInput2 = input("Enter another num ")
+
+# !! : "Create a function that will ask the user for a number". This is not a function
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
 
-
+# !! : "pass the two numbers to a function". All math actions should be in ONE function 
 def addNum():
     sum = a + b
     print(sum)
